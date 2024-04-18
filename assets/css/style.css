@@ -37,6 +37,10 @@ nav ul li a:hover{
     color: #261b17;
 }
 
+nav .menu{
+    display: none;
+}
+
 
 header{
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/bg-hero.jpg);
@@ -58,21 +62,20 @@ header .titulo{
 
 .subtitulo1{
     margin-left: 320px;
+    margin-bottom: 15px;
     color:#ae7954;
     border: 0 0 15px 0;
 }
 
 hr{
     margin: 40px 40px;
-    border: 1px solid #261b17;
 }
 
-#pEnVenta{
+#pEnVenta, #pEnAlquiler{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-    
-
+    margin-bottom: 20px;
 }
 
 article{
@@ -81,6 +84,23 @@ article{
     margin-right: 20px;
     padding-bottom: 10px;
     border-radius: 10px;
+}
+
+#enVenta, #enAlquiler{
+    margin-left: 320px;
+    padding: 10px 15px;
+    background-color: #ae7954;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: all .3s;
+}
+
+#enVenta:hover, #enAlquiler:hover{
+    cursor: pointer;
+    background-color: #261b17;
+    color: #f5e6c8;
 }
 
 i{
@@ -97,4 +117,34 @@ img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     
+}
+
+footer{
+    background-color: #261b17;
+    color: #f5e6c8;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+@media(max-width:999px){
+    nav ul li a{
+        display: none;
+    }
+
+    nav .menu{
+        display: initial;
+         color: #261b17;
+         font-size: 30px;
+        margin-right: 50px;
+    }
+
+    #pEnVenta, #pEnAlquiler{
+        grid-template-columns: auto;
+    }
+
+    article{
+        margin-bottom: 20px;
+    }
+
 }
