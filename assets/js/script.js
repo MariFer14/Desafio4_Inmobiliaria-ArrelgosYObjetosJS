@@ -41,23 +41,23 @@ const propiedadesEnVenta = [
       "<i class='fa-solid fa-bed'></i> 4 Habitaciones | <i class='fa-solid fa-bath'></i> 3 Baños",
     precio: 15000,
     smoke: true,
-    pets: false,
+    pets: true,
   },
 ];
 
 let fumar = (permitido) => {
   if (permitido) {
-    return "<span style='color: green;'>Está permitido fumar 🚬</span>";
+    return "<span style='color: green;'><i class='fa-solid fa-smoking'></i> Está permitido fumar</span>";
   } else {
-    return "<span style='color: red;'>No está permitido fumar 🚫</span>";
+    return "<span style='color: red;'><i class='fa-solid fa-ban-smoking'></i> No está permitido fumar</span>";
   }
 };
 
 let mascotas = (permitido) => {
   if (permitido) {
-    return "<span style='color: green;'>Están permitidas las mascotas 🐾</span>";
+    return "<span style='color: green;'><i class='fa-solid fa-paw'></i> Están permitidas las mascotas</span>";
   } else {
-    return "<span style='color: red;'>No están permitidas las mascotas 🚫</span>";
+    return "<span style='color: red;'><i class='fa-solid fa-ban'></i>No están permitidas las mascotas</span>";
   }
 };
 

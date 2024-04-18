@@ -50,17 +50,21 @@ header{
     margin-bottom: 50px;
 }
 
-header h2{
+header .titulo{
     font-size: 40px;
     color: #f5e6c8;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-h2{
+.subtitulo1{
     margin-left: 320px;
     color:#ae7954;
-    padding: 15px 0;
     border: 0 0 15px 0;
+}
+
+hr{
+    margin: 40px 40px;
+    border: 1px solid #261b17;
 }
 
 #pEnVenta{
@@ -79,8 +83,12 @@ article{
     border-radius: 10px;
 }
 
+i{
+    margin-right: 5px;
+}
+
 h4, p{
-    margin: 15px;
+    margin: 17px;
 }
 
 img{
