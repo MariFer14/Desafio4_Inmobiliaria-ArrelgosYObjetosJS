@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: #261b17; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/enAlquiler/bg-hero3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 40vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitulo{
+    display: flex;
+    margin-top: 10px;
+}
+
+.subtitulo .mano{
+    color: #f5e6c8;
+    font-size: 40px;
+    margin-right: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.subtitulo h2{
+    color: #f5e6c8;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+nav h1{
+    color: #f5e6c8;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+#propiedadesEnAlquiler{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+article{
+    border: 1px solid rgb(182, 182, 182);
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+i{
+    margin-right: 5px;
+}
+
+h4, p{
+    line-height: 24px;
+    margin: 17px;
+}
+
+
+img{
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer{
+    background-color: #ae7954;
+    color: #261b17;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+@media(max-width:999px){
+    .subtitulo h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .subtitulo .mano{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #propiedadesEnAlquiler{
+        grid-template-columns: auto;
+    }
+}

@@ -106,12 +106,12 @@ let fumarEndepto = (permitido) => {
     }
   };
   
-let html = "";
+let htmlVenta = "";
   
 const elementoenVenta = document.querySelector("#propiedadesEnVenta");
 
 for (const depto of propiedadesEnVenta) {
-  html += `<article id="${depto.id}">
+  htmlVenta += `<article id="${depto.id}">
     <img src="${depto.src}" alt="Imagen de la propiedad">
     <h4>${depto.titulo}</h4>
     <p>${depto.descripcion}</p>
@@ -124,4 +124,4 @@ for (const depto of propiedadesEnVenta) {
 `;
 }
 
-elementoenVenta.innerHTML = html;
+elementoenVenta.innerHTML = htmlVenta;
