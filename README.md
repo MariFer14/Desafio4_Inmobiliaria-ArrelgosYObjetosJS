@@ -1,5 +1,5 @@
 # Desafio4_Inmobiliaria-ArrelgosYObjetosJS
-# Nota: Los botones de "Ver más propiedades en venta" y "Ver más propiedades en alquiler" están programados con JS, mientras que los dos links que se encuentran en el NAV están linkeados desde el HTML. Además, al presionar la palabra Inmobiliaria en las páginas de enVenta.html y enAlquiler.html, se puede regresar a la página principal, es decir, al index.html.
+## Nota: Los botones de "Ver más propiedades en venta" y "Ver más propiedades en alquiler" están programados con JS, mientras que los dos links que se encuentran en el NAV están linkeados desde el HTML. Además, al presionar la palabra Inmobiliaria en las páginas de enVenta.html y enAlquiler.html, se puede regresar a la página principal, es decir, al index.html.
 
 Este trabajo es de índole académico, del módulo Introduccion a Java Script en mi paso por la Academia Desafío Latam.
 
