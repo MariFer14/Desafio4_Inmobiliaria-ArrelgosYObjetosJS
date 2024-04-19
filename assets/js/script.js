@@ -92,7 +92,7 @@ const propiedadesEnAlquiler = [
     descripcion:
       "Este apartamento proporciona todas las comodidades necesarias, además posee una excelente ubicación.",
     ubicacion:
-      "<i class='fa-solid fa-location-dot'></i> 436 Main Street, Anytown, CA 75896",
+      "<i class='fa-solid fa-location-dot'></i> 436 Main Street, Anytown Boulevard, CA 75896",
     habitaciones:
       "<i class='fa-solid fa-bed'></i> 2 Habitaciones | <i class='fa-solid fa-bath'></i> 2 Baños",
     precio: 3500,
